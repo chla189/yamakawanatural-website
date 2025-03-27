@@ -157,7 +157,7 @@ export default function Home() {
             <div className="group">
               <div className="relative h-80 overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/images/DJI_0735.jpg"
+                  src="/images/DJI_0735.jpg.JPG"
                   alt="上游溪流生態"
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -171,7 +171,7 @@ export default function Home() {
             <div className="group">
               <div className="relative h-80 overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/images/DJI_0516.jpg"
+                  src="/images/DJI_0516.jpg.JPG"
                   alt="溪流與人文地景"
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -185,7 +185,7 @@ export default function Home() {
             <div className="group">
               <div className="relative h-80 overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/images/IMG_1374.jpg"
+                  src="/images/IMG_1374.jpg.JPG"
                   alt="下游溪流環境"
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
