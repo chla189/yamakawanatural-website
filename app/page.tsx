@@ -253,11 +253,14 @@ export default function Home() {
             <div className="flex items-center mb-2 md:mb-0">
               <div className="w-12 h-12 relative">
                 <Image
-                  src="/images/logo.png"
+                  src="/images/logo-transparent.png.png"
                   alt="山川自然"
                   fill
                   className="object-contain"
-                  style={{ filter: 'brightness(0) invert(1)' }}
+                  style={{ filter: 'brightness(0) invert(1)', transform: 'scale(1.5)' }}
+                  priority
+                  sizes="48px"
+                  quality={100}
                 />
               </div>
               <div className="ml-2">
