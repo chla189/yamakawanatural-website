@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
       {/* 頂部導航欄 */}
       <nav className="fixed w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -247,20 +247,20 @@ export default function Home() {
       </section>
 
       {/* 頁尾 */}
-      <footer className="bg-gray-900 text-white py-2">
+      <footer className="bg-gray-900 text-white py-4 mt-auto">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center mb-1 md:mb-0">
-              <div className="w-24 h-24 relative -mr-3">
+            <div className="flex items-center mb-2 md:mb-0">
+              <div className="w-12 h-12 relative">
                 <Image
-                  src="/images/logo-transparent.png.png"
+                  src="/images/logo.png"
                   alt="山川自然"
                   fill
                   className="object-contain"
-                  style={{ filter: 'brightness(0) invert(1)', transform: 'scale(2.25)' }}
+                  style={{ filter: 'brightness(0) invert(1)' }}
                 />
               </div>
-              <div>
+              <div className="ml-2">
                 <p className="font-semibold">山川自然生活有限公司</p>
                 <p className="text-sm text-gray-400">© 2024 版權所有</p>
               </div>
