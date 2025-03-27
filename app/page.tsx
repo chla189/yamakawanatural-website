@@ -154,40 +154,46 @@ export default function Home() {
             我們致力於保護與研究台灣珍貴的天然溪流生態系統，從上游到下游的棲地特性與環境議題
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="relative h-80 group overflow-hidden rounded-lg">
-              <Image
-                src="/images/DJI_0735.jpg.JPG"
-                alt="溪流上游環境"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4 backdrop-blur-sm">
-                <h3 className="text-lg font-semibold">溪流上游環境</h3>
-                <p className="text-sm">山區溪流水量豐沛，兩岸林相完整，為野生動物提供重要棲息環境</p>
+            <div className="group">
+              <div className="relative h-80 overflow-hidden rounded-lg mb-4">
+                <Image
+                  src="/images/DJI_0735.jpg"
+                  alt="上游溪流生態"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div className="text-center">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">上游溪流生態</h3>
+                <p className="text-gray-600">山區溪流水量豐沛，兩岸林相完整，為野生動物提供重要棲息環境</p>
               </div>
             </div>
-            <div className="relative h-80 group overflow-hidden rounded-lg">
-              <Image
-                src="/images/IMG_1374.jpg.JPG"
-                alt="溪流下游與人文環境"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4 backdrop-blur-sm">
-                <h3 className="text-lg font-semibold">溪流中游環境</h3>
-                <p className="text-sm">中游段坡度趨緩，流速變化豐富，河床卵石分布，為水生生物提供多樣化棲地</p>
+            <div className="group">
+              <div className="relative h-80 overflow-hidden rounded-lg mb-4">
+                <Image
+                  src="/images/DJI_0516.jpg"
+                  alt="溪流與人文地景"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div className="text-center">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">溪流與人文地景</h3>
+                <p className="text-gray-600">溪流從山區進入平原後，與農田、聚落形成鑲嵌式的土地利用模式</p>
               </div>
             </div>
-            <div className="relative h-80 group overflow-hidden rounded-lg">
-              <Image
-                src="/images/DJI_0516.jpg.JPG"
-                alt="溪流中游環境"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4 backdrop-blur-sm">
-                <h3 className="text-lg font-semibold">溪流與人文環境</h3>
-                <p className="text-sm">溪流從山區進入平原後，與農田、聚落形成鑲嵌式的土地利用模式</p>
+            <div className="group">
+              <div className="relative h-80 overflow-hidden rounded-lg mb-4">
+                <Image
+                  src="/images/IMG_1374.jpg"
+                  alt="下游溪流環境"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div className="text-center">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">下游溪流環境</h3>
+                <p className="text-gray-600">下游段形成緩流環境，河床卵石分布，為水生生物提供多樣化的棲地</p>
               </div>
             </div>
           </div>
