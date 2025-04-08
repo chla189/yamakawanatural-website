@@ -30,6 +30,7 @@ export default function Home() {
             <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">關於我們</a>
             <a href="#services" className="text-gray-600 hover:text-gray-900 transition-colors">服務項目</a>
             <a href="#stream-ecology" className="text-gray-600 hover:text-gray-900 transition-colors">溪流生態</a>
+            <a href="#animal-monitoring" className="text-gray-600 hover:text-gray-900 transition-colors">動物監測</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">聯絡我們</a>
           </div>
         </div>
@@ -220,7 +221,7 @@ export default function Home() {
                 </video>
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">山羌</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">台灣野山羊</h3>
                 <p className="text-gray-600">台灣特有亞種，主要分布於中低海拔山區</p>
               </div>
             </div>
@@ -252,8 +253,8 @@ export default function Home() {
                 </video>
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">山豬</h3>
-                <p className="text-gray-600">台灣野豬，分布於全島各海拔山區</p>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">黃喉貂</h3>
+                <p className="text-gray-600">台灣特有亞種，分布於全島各海拔山區</p>
               </div>
             </div>
             <div className="group">
@@ -268,8 +269,8 @@ export default function Home() {
                 </video>
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">藍腹鷴</h3>
-                <p className="text-gray-600">台灣特有種，棲息於中低海拔森林</p>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">山羌</h3>
+                <p className="text-gray-600">台灣特有亞種，棲息於中低海拔森林</p>
               </div>
             </div>
           </div>
