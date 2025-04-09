@@ -187,13 +187,13 @@ export default function Home() {
               <div className="relative h-80 overflow-hidden rounded-lg mb-4">
                 <Image
                   src="/images/IMG_1374.jpg.JPG"
-                  alt="下游溪流環境"
+                  alt="中游溪流環境"
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">下游溪流環境</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">中游溪流環境</h3>
                 <p className="text-gray-600">下游段形成緩流環境，河床卵石分布，為水生生物提供多樣化的棲地</p>
               </div>
             </div>
