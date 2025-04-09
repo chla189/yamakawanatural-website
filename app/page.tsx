@@ -215,10 +215,11 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   controls
                   playsInline
-                  preload="metadata"
+                  preload="auto"
+                  crossOrigin="anonymous"
                 >
                   <source src="/videos/animal1.mp4" type="video/mp4" />
-                  您的瀏覽器不支援影片播放。
+                  <p>您的瀏覽器不支援影片播放。請使用現代瀏覽器如 Chrome、Firefox、Safari 或 Edge。</p>
                 </video>
               </div>
               <div className="text-center">
@@ -229,13 +230,15 @@ export default function Home() {
             <div className="group">
               <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
                 <video
-                  src="/videos/animal2.MP4"
                   className="w-full h-full object-cover"
                   controls
                   playsInline
-                  preload="none"
+                  preload="auto"
+                  crossOrigin="anonymous"
                 >
-                  您的瀏覽器不支援影片播放。
+                  <source src="/videos/animal2_new.mp4" type="video/mp4" />
+                  <source src="/videos/animal2.MP4" type="video/mp4" />
+                  <p>您的瀏覽器不支援影片播放。請使用現代瀏覽器如 Chrome、Firefox、Safari 或 Edge。</p>
                 </video>
               </div>
               <div className="text-center">
@@ -246,13 +249,15 @@ export default function Home() {
             <div className="group">
               <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
                 <video
-                  src="/videos/animal3.MP4"
                   className="w-full h-full object-cover"
                   controls
                   playsInline
-                  preload="none"
+                  preload="auto"
+                  crossOrigin="anonymous"
                 >
-                  您的瀏覽器不支援影片播放。
+                  <source src="/videos/animal3_new.mp4" type="video/mp4" />
+                  <source src="/videos/animal3.MP4" type="video/mp4" />
+                  <p>您的瀏覽器不支援影片播放。請使用現代瀏覽器如 Chrome、Firefox、Safari 或 Edge。</p>
                 </video>
               </div>
               <div className="text-center">
@@ -266,10 +271,11 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   controls
                   playsInline
-                  preload="metadata"
+                  preload="auto"
+                  crossOrigin="anonymous"
                 >
                   <source src="/videos/animal4.mp4" type="video/mp4" />
-                  您的瀏覽器不支援影片播放。
+                  <p>您的瀏覽器不支援影片播放。請使用現代瀏覽器如 Chrome、Firefox、Safari 或 Edge。</p>
                 </video>
               </div>
               <div className="text-center">
@@ -283,10 +289,11 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   controls
                   playsInline
-                  preload="metadata"
+                  preload="auto"
+                  crossOrigin="anonymous"
                 >
                   <source src="/videos/animal5.MP4" type="video/mp4" />
-                  您的瀏覽器不支援影片播放。
+                  <p>您的瀏覽器不支援影片播放。請使用現代瀏覽器如 Chrome、Firefox、Safari 或 Edge。</p>
                 </video>
               </div>
               <div className="text-center">
@@ -300,10 +307,11 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   controls
                   playsInline
-                  preload="metadata"
+                  preload="auto"
+                  crossOrigin="anonymous"
                 >
                   <source src="/videos/animal6.mp4" type="video/mp4" />
-                  您的瀏覽器不支援影片播放。
+                  <p>您的瀏覽器不支援影片播放。請使用現代瀏覽器如 Chrome、Firefox、Safari 或 Edge。</p>
                 </video>
               </div>
               <div className="text-center">
