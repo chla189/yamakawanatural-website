@@ -172,20 +172,6 @@ export default function Home() {
             <div className="group">
               <div className="relative h-80 overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/images/DJI_0516.jpg.JPG"
-                  alt="溪流與人文地景"
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
-              <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">溪流與人文地景</h3>
-                <p className="text-gray-600">溪流從山區進入平原後，與農田、聚落形成鑲嵌式的土地利用模式</p>
-              </div>
-            </div>
-            <div className="group">
-              <div className="relative h-80 overflow-hidden rounded-lg mb-4">
-                <Image
                   src="/images/IMG_1374.jpg.JPG"
                   alt="中游溪流環境"
                   fill
@@ -195,6 +181,20 @@ export default function Home() {
               <div className="text-center">
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">中游溪流環境</h3>
                 <p className="text-gray-600">下游段形成緩流環境，河床卵石分布，為水生生物提供多樣化的棲地</p>
+              </div>
+            </div>
+            <div className="group">
+              <div className="relative h-80 overflow-hidden rounded-lg mb-4">
+                <Image
+                  src="/images/DJI_0516.jpg.JPG"
+                  alt="溪流與人文地景"
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div className="text-center">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">溪流與人文地景</h3>
+                <p className="text-gray-600">溪流從山區進入平原後，與農田、聚落形成鑲嵌式的土地利用模式</p>
               </div>
             </div>
           </div>
