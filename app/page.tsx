@@ -233,8 +233,11 @@ export default function Home() {
                   controls
                   playsInline
                   preload="metadata"
+                  muted
+                  loop
                 >
                   <source src="/videos/animal2.MP4" type="video/mp4" />
+                  <source src="/videos/animal2.MP4" type="video/x-mp4" />
                   您的瀏覽器不支援影片播放。
                 </video>
               </div>
@@ -250,8 +253,11 @@ export default function Home() {
                   controls
                   playsInline
                   preload="metadata"
+                  muted
+                  loop
                 >
                   <source src="/videos/animal3.MP4" type="video/mp4" />
+                  <source src="/videos/animal3.MP4" type="video/x-mp4" />
                   您的瀏覽器不支援影片播放。
                 </video>
               </div>
