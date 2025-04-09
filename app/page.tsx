@@ -215,24 +215,9 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   controls
                   playsInline
+                  preload="metadata"
                 >
                   <source src="/videos/animal1.mp4" type="video/mp4" />
-                  您的瀏覽器不支援影片播放。
-                </video>
-              </div>
-              <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">臺灣野山羊</h3>
-                <p className="text-gray-600">台灣特有亞種，主要分布於中低海拔山區</p>
-              </div>
-            </div>
-            <div className="group">
-              <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
-                <video
-                  className="w-full h-full object-cover"
-                  controls
-                  playsInline
-                >
-                  <source src="/videos/animal2.MP4" type="video/mp4" />
                   您的瀏覽器不支援影片播放。
                 </video>
               </div>
@@ -247,6 +232,24 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   controls
                   playsInline
+                  preload="metadata"
+                >
+                  <source src="/videos/animal2.MP4" type="video/mp4" />
+                  您的瀏覽器不支援影片播放。
+                </video>
+              </div>
+              <div className="text-center">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">臺灣野山羊</h3>
+                <p className="text-gray-600">台灣特有亞種，主要分布於中低海拔山區</p>
+              </div>
+            </div>
+            <div className="group">
+              <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  playsInline
+                  preload="metadata"
                 >
                   <source src="/videos/animal3.MP4" type="video/mp4" />
                   您的瀏覽器不支援影片播放。
@@ -263,6 +266,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   controls
                   playsInline
+                  preload="metadata"
                 >
                   <source src="/videos/animal4.mp4" type="video/mp4" />
                   您的瀏覽器不支援影片播放。
@@ -279,6 +283,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   controls
                   playsInline
+                  preload="metadata"
                 >
                   <source src="/videos/animal5.MP4" type="video/mp4" />
                   您的瀏覽器不支援影片播放。
@@ -295,6 +300,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   controls
                   playsInline
+                  preload="metadata"
                 >
                   <source src="/videos/animal6.mp4" type="video/mp4" />
                   您的瀏覽器不支援影片播放。
