@@ -221,7 +221,7 @@ export default function Home() {
                 </video>
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">台灣野山羊</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">臺灣野山羊</h3>
                 <p className="text-gray-600">台灣特有亞種，主要分布於中低海拔山區</p>
               </div>
             </div>
@@ -232,12 +232,12 @@ export default function Home() {
                   controls
                   playsInline
                 >
-                  <source src="/videos/animal2.mp4" type="video/mp4" />
+                  <source src="/videos/animal2.MP4" type="video/mp4" />
                   您的瀏覽器不支援影片播放。
                 </video>
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">水鹿</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">臺灣水鹿</h3>
                 <p className="text-gray-600">台灣最大的原生鹿種，棲息於中高海拔山區</p>
               </div>
             </div>
@@ -248,7 +248,7 @@ export default function Home() {
                   controls
                   playsInline
                 >
-                  <source src="/videos/animal3.mp4" type="video/mp4" />
+                  <source src="/videos/animal3.MP4" type="video/mp4" />
                   您的瀏覽器不支援影片播放。
                 </video>
               </div>
@@ -269,8 +269,40 @@ export default function Home() {
                 </video>
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">山羌</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">食蟹獴</h3>
                 <p className="text-gray-600">台灣特有亞種，棲息於中低海拔森林</p>
+              </div>
+            </div>
+            <div className="group">
+              <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  playsInline
+                >
+                  <source src="/videos/animal5.MP4" type="video/mp4" />
+                  您的瀏覽器不支援影片播放。
+                </video>
+              </div>
+              <div className="text-center">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">藍腹鷴</h3>
+                <p className="text-gray-600">台灣特有種，分布於中高海拔山區</p>
+              </div>
+            </div>
+            <div className="group">
+              <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  playsInline
+                >
+                  <source src="/videos/animal6.mp4" type="video/mp4" />
+                  您的瀏覽器不支援影片播放。
+                </video>
+              </div>
+              <div className="text-center">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">臺灣野豬</h3>
+                <p className="text-gray-600">台灣特有亞種，分布於全島各海拔山區</p>
               </div>
             </div>
           </div>
