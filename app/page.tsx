@@ -229,15 +229,12 @@ export default function Home() {
             <div className="group">
               <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
                 <video
+                  src="/videos/animal2.MP4"
                   className="w-full h-full object-cover"
                   controls
                   playsInline
-                  preload="metadata"
-                  muted
-                  loop
+                  preload="none"
                 >
-                  <source src="/videos/animal2.MP4" type="video/mp4" />
-                  <source src="/videos/animal2.MP4" type="video/x-mp4" />
                   您的瀏覽器不支援影片播放。
                 </video>
               </div>
@@ -249,15 +246,12 @@ export default function Home() {
             <div className="group">
               <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
                 <video
+                  src="/videos/animal3.MP4"
                   className="w-full h-full object-cover"
                   controls
                   playsInline
-                  preload="metadata"
-                  muted
-                  loop
+                  preload="none"
                 >
-                  <source src="/videos/animal3.MP4" type="video/mp4" />
-                  <source src="/videos/animal3.MP4" type="video/x-mp4" />
                   您的瀏覽器不支援影片播放。
                 </video>
               </div>
