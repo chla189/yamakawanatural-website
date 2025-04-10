@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: 'https://www.yamakawanatural.com',
     siteName: '山川自然生活有限公司',
     images: [{
-      url: '/images/logo-transparent.png.png',
+      url: 'https://www.yamakawanatural.com/images/logo-transparent.png.png',
       width: 800,
       height: 600,
       alt: '山川自然生活有限公司 Logo',
