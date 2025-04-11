@@ -48,21 +48,16 @@ export default function Home() {
       >
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <div className="w-16 h-16 relative">
+            <div className="w-8 h-8 relative">
               <Image
                 src="/images/logo-transparent.png.png"
                 alt="山川自然"
                 fill
                 className="object-contain"
                 priority
-                sizes="64px"
-                quality={100}
               />
             </div>
-            <div className="flex flex-col">
-              <span className="text-2xl font-bold text-gray-900">山川自然</span>
-              <span className="text-sm text-gray-600">生活有限公司</span>
-            </div>
+            <span className="text-lg font-semibold text-gray-800">山川自然</span>
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">關於我們</a>
@@ -75,25 +70,35 @@ export default function Home() {
       </nav>
 
       {/* 英雄區塊 */}
-      <section className="relative h-screen flex items-center justify-center pt-32">
-        <div className="absolute inset-0 bg-[url('/images/DJI_0735.jpg.JPG')] bg-cover bg-center opacity-20"></div>
-        <div className="container mx-auto px-4 text-center relative z-10">
-          <div className="mb-8 mx-auto w-32 h-32 relative">
-            <div className="absolute inset-0">
-              <Image
-                src="/images/logo-transparent.png.png"
-                alt="山川自然"
-                fill
-                className="object-contain"
-              />
-            </div>
+      <section className="relative h-screen flex items-center justify-center">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/hero-bg.jpg"
+            alt="山川自然背景"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/40"></div>
+        </div>
+        <div className="relative z-10 text-center text-white">
+          <div className="w-48 h-48 mx-auto mb-8 relative">
+            <Image
+              src="/images/logo_name"
+              alt="山川自然"
+              fill
+              className="object-contain"
+              priority
+            />
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 tracking-wider">
-            山川自然
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-700 max-w-2xl mx-auto">
-            專業的生態調查與環境監測服務，為您打造永續的自然生活
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">山川自然生活有限公司</h1>
+          <p className="text-xl md:text-2xl mb-8">專業的生態調查與環境監測服務</p>
+          <a
+            href="#contact"
+            className="inline-block bg-white text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+          >
+            立即聯繫
+          </a>
         </div>
       </section>
 
@@ -362,51 +367,45 @@ export default function Home() {
       </section>
 
       {/* 聯絡我們 */}
-      <section id="contact" className="py-20 bg-white">
+      <section id="contact" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-16">聯絡我們</h2>
-          <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 rounded-lg p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-6">聯絡資訊</h3>
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <svg className="w-6 h-6 text-gray-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  <div>
-                    <h4 className="font-medium text-gray-800">聯絡電話</h4>
-                    <p className="text-gray-600">07-323-0917</p>
-                  </div>
+          <h2 className="text-3xl font-bold text-center mb-6">聯絡我們</h2>
+          <p className="text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+            如果您對我們的服務有任何疑問或需求，歡迎隨時與我們聯繫
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-white p-8 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-4">聯絡資訊</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-medium text-gray-800">聯絡電話</h4>
+                  <p className="text-gray-600">07-323-0917</p>
                 </div>
-                <div className="flex items-start space-x-4">
-                  <svg className="w-6 h-6 text-gray-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  <div>
-                    <h4 className="font-medium text-gray-800">電子郵件</h4>
-                    <p className="text-gray-600">chla189.tw1@gmail.com</p>
-                  </div>
+                <div>
+                  <h4 className="font-medium text-gray-800">電子郵件</h4>
+                  <p className="text-gray-600">chla189.tw1@gmail.com</p>
                 </div>
-                <div className="mt-6 pt-6 border-t border-gray-200">
-                  <h4 className="font-medium text-gray-800 mb-2">山川自然生活有限公司</h4>
+                <div>
+                  <h4 className="font-medium text-gray-800">公司名稱</h4>
+                  <p className="text-gray-600">山川自然生活有限公司</p>
                   <p className="text-gray-600">Yamakawa Natural Life Ltd.</p>
                 </div>
               </div>
             </div>
-            <div className="bg-gray-50 rounded-lg p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-6">服務時間</h3>
+            <div className="bg-white p-8 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-4">服務時間</h3>
               <div className="space-y-4">
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-600">週一至週五</span>
-                  <span className="text-gray-800">09:00 - 18:00</span>
+                <div>
+                  <h4 className="font-medium text-gray-800">週一至週五</h4>
+                  <p className="text-gray-600">09:00 - 18:00</p>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-600">週六、週日</span>
-                  <span className="text-gray-800">依約定時間</span>
+                <div>
+                  <h4 className="font-medium text-gray-800">週六、週日</h4>
+                  <p className="text-gray-600">依約定時間</p>
                 </div>
-                <p className="text-gray-600 mt-6">
-                  生態調查及實地考察服務時間依現地狀況安排，請提前與我們聯繫預約。
-                </p>
+                <div>
+                  <p className="text-gray-600">生態調查及實地考察服務時間依現地狀況安排，請提前與我們聯繫預約。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -414,32 +413,63 @@ export default function Home() {
       </section>
 
       {/* 頁尾 */}
-      <footer className="bg-gray-900 text-white py-4 mt-auto">
+      <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center mb-2 md:mb-0">
-              <div className="w-12 h-12 relative">
-                <Image
-                  src="/images/logo-transparent.png.png"
-                  alt="山川自然"
-                  fill
-                  className="object-contain"
-                  style={{ filter: 'brightness(0) invert(1)', transform: 'scale(1.5)' }}
-                  priority
-                  sizes="48px"
-                  quality={100}
-                />
-              </div>
-              <div className="ml-2">
-                <p className="font-semibold">山川自然生活有限公司</p>
-                <p className="text-sm text-gray-400">© 2024 版權所有</p>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="space-y-4">
+              <div className="flex items-center space-x-4">
+                <div className="w-16 h-16 relative">
+                  <Image
+                    src="/images/logo-transparent.png.png"
+                    alt="山川自然"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold">山川自然</h3>
+                  <p className="text-sm text-gray-400">生活有限公司</p>
+                </div>
               </div>
             </div>
-            <div className="flex space-x-6">
-              <a href="#about" className="text-gray-400 hover:text-white transition-colors">關於我們</a>
-              <a href="#services" className="text-gray-400 hover:text-white transition-colors">服務項目</a>
-              <a href="#contact" className="text-gray-400 hover:text-white transition-colors">聯絡我們</a>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">快速連結</h4>
+              <ul className="space-y-2">
+                <li><a href="#about" className="text-gray-400 hover:text-white transition-colors">關於我們</a></li>
+                <li><a href="#services" className="text-gray-400 hover:text-white transition-colors">服務項目</a></li>
+                <li><a href="#stream-ecology" className="text-gray-400 hover:text-white transition-colors">溪流生態</a></li>
+                <li><a href="#animal-monitoring" className="text-gray-400 hover:text-white transition-colors">動物監測</a></li>
+              </ul>
             </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">聯絡資訊</h4>
+              <ul className="space-y-2">
+                <li className="text-gray-400">07-323-0917</li>
+                <li className="text-gray-400">chla189.tw1@gmail.com</li>
+                <li className="text-gray-400">山川自然生活有限公司</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">社群媒體</h4>
+              <ul className="space-y-2">
+                <li>
+                  <a 
+                    href="https://www.facebook.com/yamakawanatural" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-gray-400 hover:text-white transition-colors flex items-center space-x-2"
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" />
+                    </svg>
+                    <span>Facebook</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+            <p>© 2024 版權所有</p>
           </div>
         </div>
       </footer>
