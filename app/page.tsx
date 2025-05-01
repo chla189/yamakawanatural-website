@@ -73,13 +73,15 @@ export default function Home() {
       {/* 英雄區塊 */}
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/DJI_0735.jpg.JPG"
-            alt="山川自然背景"
-            fill
-            className="object-cover"
-            priority
-          />
+          <div className="relative w-full h-full">
+            <Image
+              src="/images/DJI_0735.jpg.JPG"
+              alt="山川自然背景"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="relative z-10 text-center text-white">
@@ -394,7 +396,7 @@ export default function Home() {
                 <div>
                   <h4 className="font-medium text-gray-800">社群媒體</h4>
                   <a 
-                    href="https://www.facebook.com/profile.php?id=61555458103174" 
+                    href="https://www.facebook.com/profile.php?id=61555458103174#" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="text-gray-600 hover:text-blue-600 transition-colors flex items-center space-x-2"
@@ -469,7 +471,7 @@ export default function Home() {
               <ul className="space-y-2">
                 <li>
                   <a 
-                    href="https://www.facebook.com/profile.php?id=61555458103174" 
+                    href="https://www.facebook.com/profile.php?id=61555458103174#" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="text-gray-400 hover:text-white transition-colors flex items-center space-x-2"
